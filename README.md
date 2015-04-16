@@ -1,5 +1,6 @@
 # martinbour.com
 This is the web site application for Martin Bour
+To view the live site visit: http://shadygrove.github.io/martinbour.com/
 
 # Who is this for?
 It's really just for Martin so he can have a web page using GitHub pages and not pay for hosting
