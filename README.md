@@ -5,8 +5,8 @@ http://www.martinbour.com
 or  
 http://shadygrove.github.io/martinbour.com/
 
-# To Do List
-- [Setup DNS host](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
+#### To Do List
+- Design and build site using Jekyll
 
 # Who is this for?
 It's really just for Martin so he can have a web page using GitHub pages and not pay for hosting
