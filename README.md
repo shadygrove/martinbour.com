@@ -5,16 +5,16 @@ To view the live site visit: http://shadygrove.github.io/martinbour.com/
 # Who is this for?
 It's really just for Martin so he can have a web page using GitHub pages and not pay for hosting
 
-# What is it?
+## What is it?
 It's just a static web application started with a GitHub pages template and running Jekyll
 
-# When was it created?
+## When was it created?
 Started in April of 2015 when Martin decided to shut down his old programming blog that was running on BlogEngine.NET.
 
-# Why is this here?
+## Why is this here?
 It's really just for me.  If you are looking at this, I can't think of any real reason why you would want to fork my code, but whatever.
 
-# Notes from setup
+## Notes from setup
 Run site locally with Jekyll  - “bundle exec jekyll serve”
 
 Basic setup instructions - you can use a pre-built template and a “gh-pages” branch will automatically be identified and serve as a web page
@@ -33,6 +33,20 @@ Run “bundle install”: I received an error here and had some problems that re
 xcode-select --install which will create install dialog
 Run site locally with Jekyll  - “bundle exec jekyll serve”
 
-Other Notes:
+**Domain Name Setup**
+The most helpful page on setting this up was…
+[Configuring A Record with DNS Provider](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/)
+Create CNAME file
+Setup DNS account 
+[Article on Go Daddy Setup]( https://medium.com/@LovettLovett/github-pages-godaddy-f0318c2f25a)
+
+Final GoDaddy configuration looks this…
+A Names:
+@ = 192.30.252.153
+@ = 192.30.252.154
+CNAME:
+www = shadygrove.github.io
+
+**Other Notes:**
 Text Editor - Sublime Text 2 (supports simple projects)
 
