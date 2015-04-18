@@ -33,7 +33,7 @@ Run “bundle install”: I received an error here and had some problems that re
 xcode-select --install which will create install dialog
 Run site locally with Jekyll  - “bundle exec jekyll serve”
 
-**Domain Name Setup**
+## Domain Name Setup
 The most helpful page on setting this up was…
 [Configuring A Record with DNS Provider](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/)
 Create CNAME file
@@ -47,6 +47,6 @@ A Names:
 CNAME:
 www = shadygrove.github.io
 
-**Other Notes:**
+## Other Notes:
 Text Editor - Sublime Text 2 (supports simple projects)
 
