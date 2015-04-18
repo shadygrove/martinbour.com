@@ -6,7 +6,7 @@ or
 http://shadygrove.github.io/martinbour.com/
 
 ### To Do
-Setup set to use [Jekyll](http://www.jekyllrb.com)
+Setup set to use [Jekyll](http://www.jekyllrb.com)  
 Design site layout
 
 ### About This Project
