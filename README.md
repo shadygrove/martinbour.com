@@ -1,8 +1,8 @@
 # martinbour.com
 This is the web site application for Martin Bour
-To view the live site visit: 
-http://www.martinbour.com
-or
+To view the live site visit:  
+http://www.martinbour.com  
+or  
 http://shadygrove.github.io/martinbour.com/
 
 # Who is this for?
@@ -44,10 +44,10 @@ Setup DNS account
 [Article on Go Daddy Setup]( https://medium.com/@LovettLovett/github-pages-godaddy-f0318c2f25a)
 
 Final GoDaddy configuration looks this…
-A Names:
-@ = 192.30.252.153
-@ = 192.30.252.154
-CNAME:
+A Names:  
+@ = 192.30.252.153  
+@ = 192.30.252.154  
+CNAME:  
 www = shadygrove.github.io
 
 ## Other Notes:
