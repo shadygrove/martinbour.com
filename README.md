@@ -21,7 +21,13 @@ Started in April of 2015 when Martin decided to shut down his old programming bl
 ## Why is this here?
 It's really just for me.  If you are looking at this, I can't think of any real reason why you would want to fork my code, but whatever.
 
-## Notes from setup
+## Documentation
+This site was setup using GitHub Pages.  
+The Jekyll platform is used for posts and pages  
+Posts are created using Markdown formatting  
+SASS is used to organize CSS  
+
+### Notes from setup
 Run site locally with Jekyll  - “bundle exec jekyll serve”
 
 Basic setup instructions - you can use a pre-built template and a “gh-pages” branch will automatically be identified and serve as a web page
