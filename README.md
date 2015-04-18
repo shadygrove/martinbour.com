@@ -1,6 +1,9 @@
 # martinbour.com
 This is the web site application for Martin Bour
-To view the live site visit: http://shadygrove.github.io/martinbour.com/
+To view the live site visit: 
+http://www.martinbour.com
+or
+http://shadygrove.github.io/martinbour.com/
 
 # To Do List
 - [Setup DNS host](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
