@@ -5,8 +5,9 @@ http://www.martinbour.com
 or  
 http://shadygrove.github.io/martinbour.com/
 
-#### To Do List
-- Design and build site using Jekyll
+### To Do
+Setup set to use (Jekyll)[http://www.jekyllrb.com]
+Design site layout
 
 # Who is this for?
 It's really just for Martin so he can have a web page using GitHub pages and not pay for hosting

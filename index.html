@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html>
   <head>
@@ -6,8 +8,8 @@
     <meta name="google-site-verification" content="UMn7_TNLPHfqIIxI6uDs7n28Z2yHEem-WLRQL7Y-DOQ" />
     <title>Martinbour.com by shadygrove</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,22 +17,29 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1>Martinbour.com</h1>
-      </header>
+      
+      {% include header.html %}
+
       <section>
         <h3>Welcome to Martin's Site</h3>
         <p>I am a software developer, guitarist, banjo player, and recording engineer</p>
 
         <p>This site was setup April 15, 2015, and is currently under construction</p>
 
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {{ post.excerpt }}
+            </li>
+          {% endfor %}
+        </ul>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/shadygrove">shadygrove</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+      
+      {% include footer.html %}
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="assets/scripts/scale.fix.js"></script>
     
   </body>
 </html>
