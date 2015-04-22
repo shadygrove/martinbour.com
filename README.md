@@ -63,8 +63,8 @@ bourbon install - this will create a bourbon directory with all the necessary .s
 Add import to "assets/css/styles.scss": @import 'bourbon/bourbon'  
 
 Jekyll configures SASS default directory to _sass, but I decided to be explicit and define it in the _config.yml anyway...  
-sass:
-  sass_dir: _sass
+sass:  
+   sass_dir: _sass
 
 ### How to Setup Neat
 Add ~gem 'neat'~ to the Gemfile  
