@@ -28,6 +28,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
+  border-bottom: 1px dashed #bbb;
 }
 
 a {
@@ -44,8 +45,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  @include outer-container;
 }
 
 blockquote {
@@ -93,8 +93,3 @@ img {
   max-width:100%;
 }
 
-header {
-  width:270px;
-  float:left;
-  position:fixed;
-}
