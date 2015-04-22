@@ -23,7 +23,8 @@ Started in April of 2015 when Martin decided to shut down his old programming bl
 #### Why is this here?
 It's really just for me.  If you are looking at this, I can't think of any real reason why you would want to fork my code, but whatever.
 
-## Documentation
+Documentation
+-------------
 This site was setup using GitHub Pages.  
 The Jekyll platform is used for posts and pages  
 Posts are created using Markdown formatting  
@@ -49,6 +50,21 @@ I received an error here and had some problems that really held me up.  I was us
 **xcode-select --install** which will create install dialog for XCode
 **To run site locally with Jekyll**  
 ~“bundle exec jekyll serve”~
+
+## Design and Layout (CSS)
+Jekyll uses makes use of SASS, so I decided to use (Bourbon)[http://bourbon.io/] for some high-level CSS features, and (NEAT)[http://neat.bourbon.io/] for a grid framework.
+
+### Install Bourbon locally
+I have already generated Bourbon .scss in the "_sass" directory.  These are the steps I took to do that...  
+Add ~gem 'bourbon'~ to the Gemfile  
+Then, run ~gem install~  
+cd to the _sass directory, and  
+bourbon install - this will create a bourbon directory with all the necessary .scss files  
+Add import to "assets/css/styles.scss": @import 'bourbon/bourbon'  
+
+Jekyll configures SASS default directory to _sass, but I decided to be explicit and define it in the _config.yml anyway...  
+sass:
+  sass_dir: _sass
 
 ## Domain Name Setup
 The most helpful page on setting this up was…

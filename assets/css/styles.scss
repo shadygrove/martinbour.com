@@ -2,8 +2,15 @@
 ---
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-@import "reset";
-@import "main";
+@import "_reset";
+@import "bourbon/bourbon";
+@import "_main";
+
+// Bourbon mixin with Sass
+h1 {
+  font-family: $helvetica;
+  font-size: golden-ratio(14px,  1);
+}
 
 header ul {
   list-style:none;
