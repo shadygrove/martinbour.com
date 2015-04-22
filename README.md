@@ -54,10 +54,10 @@ I received an error here and had some problems that really held me up.  I was us
 ## Design and Layout (CSS)
 Jekyll uses makes use of SASS, so I decided to use (Bourbon)[http://bourbon.io/] for some high-level CSS features, and (NEAT)[http://neat.bourbon.io/] for a grid framework.
 
-### Install Bourbon locally
+### How to Setup Bourbon
 I have already generated Bourbon .scss in the "_sass" directory.  These are the steps I took to do that...  
 Add ~gem 'bourbon'~ to the Gemfile  
-Then, run ~gem install~  
+Run ~bundle install~ - this will install the gem in your Ruby install  
 cd to the _sass directory, and  
 bourbon install - this will create a bourbon directory with all the necessary .scss files  
 Add import to "assets/css/styles.scss": @import 'bourbon/bourbon'  
@@ -65,6 +65,16 @@ Add import to "assets/css/styles.scss": @import 'bourbon/bourbon'
 Jekyll configures SASS default directory to _sass, but I decided to be explicit and define it in the _config.yml anyway...  
 sass:
   sass_dir: _sass
+
+### How to Setup Neat
+Add ~gem 'neat'~ to the Gemfile  
+Run ~bundle install~  
+Now we need to create the directory in _sass similar to how we did Bourbon...  
+cd to the _sass directory, and ~neat install~  
+Import neat in the master .scss file at "assets/css/styles.scss"  
+@import "neat/neat"
+
+**Note: make sure you can still compile the project: ~jekyll build~ from the root directory**
 
 ## Domain Name Setup
 The most helpful page on setting this up was…

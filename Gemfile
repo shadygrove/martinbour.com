@@ -6,3 +6,6 @@ gem 'github-pages'
 
 # Bourbon for SASS
 gem 'bourbon'
+
+# NEAT grid framework for Bourbon
+gem 'neat'
