@@ -37,16 +37,18 @@ Basic setup instructions - you can use a pre-built template and a “gh-pages”
 Jekyll - a simple, static, blog-aware web framework built on Ruby-on-Rails
 Every GitHub page is run through Jekyll, so “Simply start committing Jekyll formatted files and you'll be using Jekyll in no time.”
 
-It may be good to install Jekyll locally for development, instructions here.
-Basics: 
-Install Ruby: used RVM (Ruby Version Manager)
-Install Bundler for Ruby  “gem install bundler”
-Add Jekyll to project
-Create gem file “bundler init”
-Add “gem 'github-pages” to the GemFile
-Run “bundle install”: I received an error here and had some problems that really held me up.  I was on using Ruby 1.9.3 and installed 2.2.2 using RVM (version mgr).  This still did not work.  In the end, I had to install xcode developer tools…
-xcode-select --install which will create install dialog
-Run site locally with Jekyll  - “bundle exec jekyll serve”
+### Install Jekyll locally for development
+Basics:  
+Install Ruby: I used RVM (Ruby Version Manager)  
+Install Bundler for Ruby “gem install bundler”  
+#### Add Jekyll to project  
+Create gem file “bundler init”  
+Add “gem 'github-pages” to the GemFile  
+Run “bundle install”:  
+I received an error here and had some problems that really held me up.  I was using Ruby 1.9.3 and installed 2.2.2 using RVM (version mgr).  This still did not work.  In the end, I had to install xcode developer tools…  
+**xcode-select --install** which will create install dialog for XCode
+**To run site locally with Jekyll**  
+- “bundle exec jekyll serve”
 
 ## Domain Name Setup
 The most helpful page on setting this up was…
