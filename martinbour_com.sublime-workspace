@@ -8,18 +8,50 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "assets/css/styles.scss",
 			"settings":
 			{
-				"buffer_size": 2610,
+				"buffer_size": 215,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 139,
+				"buffer_size": 1346,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_main.scss",
+			"settings":
+			{
+				"buffer_size": 1163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_layout.scss",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 3802,
 				"line_ending": "Unix"
 			}
 		}
@@ -52,13 +84,18 @@
 	},
 	"file_history":
 	[
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/.gitignore",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/README.md",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/styles.scss",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_main.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_layout.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_media.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/Gemfile",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/README.md",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/pygment_trac.css",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/styles.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/assets/css/styles.css",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_config.yml",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/.gitignore",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_reset.scss",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/assets/css/styles.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_config.yml",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_posts/2015-04-18-sample-post.md",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/index.html",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/robots.txt",
@@ -121,6 +158,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h1 {",
 			"todo",
 			"mvc"
 		],
@@ -140,23 +178,161 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "assets/css/styles.scss",
 					"settings":
 					{
-						"buffer_size": 2610,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2072,
-								2072
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 265.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_sass/_main.scss",
+					"settings":
+					{
+						"buffer_size": 1163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_sass/_layout.scss",
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 3802,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2857,
+								2857
 							]
 						],
 						"settings":
@@ -164,33 +340,7 @@
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 722.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1086.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -254,6 +404,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 179.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true
 }
