@@ -5,11 +5,13 @@ http://www.martinbour.com
 or  
 http://shadygrove.github.io/martinbour.com/
 
-### To Do
-Setup set to use [Jekyll](http://www.jekyllrb.com)  
-Design site layout
+### Info
+[GitHub Pages](https://pages.github.com/)  
+[Jekyll](http://www.jekyllrb.com)  
+[Bourbon](http://bourbon.io/) - CSS Mixins for [SASS](http://sass-lang.com/)  
+[NEAT](http://neat.bourbon.io/) - grid framework for Bourbon  
 
-### About This Project
+## About This Project
 
 #### Who is this for?
 It's really just for Martin so he can have a web page using GitHub pages and not pay for hosting
