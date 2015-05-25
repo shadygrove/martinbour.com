@@ -1,3 +1,5 @@
+source: .
+destination: _site
 url: http://martinbour.com
 
 sass:

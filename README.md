@@ -6,6 +6,7 @@ or
 http://shadygrove.github.io/martinbour.com/
 
 ### Info
+[Markdown](http://en.wikipedia.org/wiki/Markdown)  
 [GitHub Pages](https://pages.github.com/)  
 [Jekyll](http://www.jekyllrb.com)  
 [Bourbon](http://bourbon.io/) - CSS Mixins for [SASS](http://sass-lang.com/)  
