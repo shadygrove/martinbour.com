@@ -2,9 +2,14 @@
 ---
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-@import "_reset";
+@import "reset";
+
 @import "bourbon/bourbon";
+@import "base/base";
 @import "neat/neat";
-@import "_main";
-@import "layout";
+
+@import "variables";
+
+//@import "_main";
+//@import "layout";
 //@import "media";

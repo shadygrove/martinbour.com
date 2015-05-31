@@ -1,47 +1,19 @@
 ---
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="google-site-verification" content="UMn7_TNLPHfqIIxI6uDs7n28Z2yHEem-WLRQL7Y-DOQ" />
-    <title>Martinbour.com by shadygrove</title>
 
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      
-      {% include header.html %}
+<h3>Welcome to Martin's Site</h3>
+<aside>I am a software developer, guitarist, banjo player, and recording engineer</aside>
 
-      <section>
-        <h3>Welcome to Martin's Site</h3>
-        <aside>I am a software developer, guitarist, banjo player, and recording engineer</aside>
+<article>
 
-        <article>
-          <p>This site was setup April 15, 2015, and is currently under construction</p>
+  <p>This site was setup April 15, 2015, and is currently under construction</p>
 
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                {{ post.excerpt }}
-              </li>
-            {% endfor %}
-          </ul>
-        </article>
-      </section>
-      
-      {% include footer.html %}
-
-    </div>
-    <script src="assets/scripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+</article>

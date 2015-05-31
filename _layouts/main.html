@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="google-site-verification" content="UMn7_TNLPHfqIIxI6uDs7n28Z2yHEem-WLRQL7Y-DOQ" />
+    <title>Martinbour.com by shadygrove</title>
+
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="/assets/css/desktop.css" media="(min-width:40em)">
+    
+    <link rel="stylesheet" href="/assets/css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="css/ie.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+    <noscript><link rel="stylesheet" href="../css/mobile.css"></noscript>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      {% include header.html %}
+      
+      <section>
+        {{ page.type }}
+        {{ content }}
+      </section>
+      
+      {% include footer.html %}
+
+    </div>
+    <script src="assets/scripts/scale.fix.js"></script>
+    
+  </body>
+</html>
