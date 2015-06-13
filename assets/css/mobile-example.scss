@@ -1,12 +1,7 @@
 ---
 ---
-@import "reset";
-
 @import "bourbon/bourbon";
-@import "base/base";
-@import "neat/neat";
-
-@import "variables";
+@import "example/variables";
 
 $visual-grid: true;
 $visual-grid-color: #E6F6FF;
@@ -18,10 +13,15 @@ $dkerblue: #298EC3;
 $textblue: #072f44;
 
 
+@import "neat/neat";
+@import "example/typography";
+@import "example/reset_neat";
+
+
 body {
   color: $textblue;
-  line-height: $base-line-height;
-  text-align: left;
+  line-height: $body-line-height;
+  text-align: center;
 }
 
 h3 {
@@ -46,7 +46,7 @@ header {
     color: #fff;
     font-family: "helvetica Neue", "Helvetica", sans-serif;
     font-weight: 100;
-    line-height: $base-line-height;
+    line-height: $body-line-height;
   }
 
   .source {
@@ -70,7 +70,7 @@ header {
 section {
   background-color: $ltblue;
   text-align: center;
-  line-height: $base-line-height*1.5;
+  line-height: $body-line-height*1.5;
 
   div {
     background-color: $midblue;
@@ -175,4 +175,3 @@ footer {
     }
   }
 }
-
