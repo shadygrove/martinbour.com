@@ -1,0 +1,157 @@
+
+body {
+  color: $textblue;
+  line-height: $base-line-height;
+}
+
+pre {
+  line-height: 1.6em;
+}
+
+.wrapper {
+  @include outer-container;
+}
+
+header {
+  background-color: $dkerblue;
+  @include clearfix();
+  padding: 0.5em 1em;
+  text-align: center;
+
+  .wrapper {
+    @include outer-container;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: "helvetica Neue", "Helvetica", sans-serif;
+    font-weight: 100;
+    line-height: $base-line-height;
+  }
+
+  .source {
+    @include inline-block;
+    background-color: white;
+    border-radius: 3px;
+    color: $dkerblue;
+    font-size: em(14);
+    font-weight: bold;
+    margin-right: .5em;
+    margin-top: .5em;
+    padding: .5em 1em;
+    text-decoration: none;
+
+    &:hover {
+      background-color: rgba(white, .7);
+    }
+  }
+}
+
+section {
+  background-color: $ltblue;
+  text-align: center;
+  line-height: $base-line-height*1.5;
+
+  div {
+    background-color: $midblue;
+    // font-size: 0.8em;
+    margin-bottom: 2em;
+  }
+
+  &.first {
+    div#gamma {
+      aside, article {
+        background-color: #FFF;
+      }
+    }
+  }
+
+  &.second {
+    div#beta {
+      aside, article {
+        background-color: $dkblue;
+      }
+
+      aside {
+        border-bottom: 1px solid $dkerblue;
+      }
+    }
+  }
+
+  &.third {
+     div#dummy {
+      background-color: $midblue;
+      margin-bottom: 0;
+    }
+
+    div#alpha {
+      aside {
+        background-color: $dkblue;
+        border-bottom: 1px solid $dkerblue;
+      }
+
+      article {
+        background-color: $dkblue;
+      }
+    }
+  }
+
+  &.sixth {
+
+    > pre {
+      padding: 10px 0;
+    }
+
+    @include media($mobile) {
+      font-size: 0.9em;
+      line-height: 1.5em;
+    }
+
+    div {
+      line-height: 2em;
+      min-height: 20em;
+      text-align: left;
+      padding: 1em;
+    }
+
+    div#alpha {
+      @include span-columns(4);
+
+      @include media($mobile) {
+        @include span-columns(3);
+      }
+    }
+
+    div#beta {
+      @include span-columns(8);
+
+      @include media($mobile) {
+        @include span-columns(3);
+      }
+    }
+  }
+}
+
+div.code {
+  background-color: $ltblue;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+footer {
+  padding: 2em;
+  display: block;
+  clear: both;
+
+  a.back-button {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    background-color: $dkerblue;
+
+    &:hover {
+      background-color: $textblue;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 ---
 ---
 @import "bourbon/bourbon";
-@import "example/variables";
+@import "base/base";
 @import "neat/neat";
-@import "example/typography";
+//@import "example/typography";
 
 header {
   h1 {
@@ -26,7 +26,7 @@ section {
 
   div {
     //height: $body-line-height*4;
-    line-height: $body-line-height;
+    line-height: $base-line-height;
     text-align: left;
     padding: 1em;
   }
@@ -109,7 +109,7 @@ section {
 
       &#beta {
         padding: 0;
-        line-height: $body-line-height*2;
+        line-height: $base-line-height*2;
         text-align: center;
         @include span-columns(8);
 
