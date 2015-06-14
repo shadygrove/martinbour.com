@@ -1,7 +1,12 @@
 ---
 ---
+@import "example/reset";
+@import "example/bitters-normalize";
 @import "bourbon/bourbon";
+
 @import "example/variables";
+
+@import "base/base";
 
 $visual-grid: true;
 $visual-grid-color: #E6F6FF;
@@ -15,21 +20,21 @@ $textblue: #072f44;
 
 @import "neat/neat";
 @import "example/typography";
-@import "example/reset_neat";
+//@import "example/reset_neat";
 
+@import "example/bitters-example";
 
 body {
   color: $textblue;
   line-height: $body-line-height;
-  text-align: center;
-}
-
-h3 {
-  margin: 1em;
 }
 
 pre {
   line-height: 1.6em;
+}
+
+.wrapper {
+  @include outer-container;
 }
 
 header {
@@ -74,7 +79,7 @@ section {
 
   div {
     background-color: $midblue;
-    font-size: 0.8em;
+    // font-size: 0.8em;
     margin-bottom: 2em;
   }
 

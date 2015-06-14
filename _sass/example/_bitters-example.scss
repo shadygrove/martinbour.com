@@ -1,0 +1,14 @@
+
+section {
+
+	&.bittersexample  { 
+    div#bitterscontent {
+      @include span-columns(8);
+
+      @include media($mobile) {
+        @include span-columns(3);
+      }
+    } 
+  }
+
+}
