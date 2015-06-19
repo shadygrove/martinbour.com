@@ -30,7 +30,6 @@ header {
   }
 
   .source {
-    @include inline-block;
     background-color: white;
     border-radius: 3px;
     color: $dkerblue;

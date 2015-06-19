@@ -132,7 +132,7 @@ section {
 
     div#alpha {
       @include fill-parent();
-      @include row(table);
+      @include row();
       margin-bottom: 0;
       padding: 0;
 
@@ -145,7 +145,6 @@ section {
       article {
         height: 20em;
         @include span-columns(8);
-        @include reset-display;
         @include pad();
       }
     }
