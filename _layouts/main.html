@@ -4,24 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Martinbour.com</title>
+    <title>Martinbour.com - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link rel="stylesheet" href="/assets/css/mobile-example.css">
-    <link rel="stylesheet" href="/assets/css/desktop-example.css" media="(min-width:50em)">
+    <link rel="stylesheet" href="/assets/css/styles-mobile.css">
+    <link rel="stylesheet" href="/assets/css/styles-desktop.css" media="(min-width:50em)">
     
     <!--[if (lt IE 9) & (!IEMobile)]>
-    <link rel="stylesheet" href="css/ie.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
-    <noscript><link rel="stylesheet" href="../css/mobile.css"></noscript>
+    IE 9 stylesheets here
     <![endif]-->
+
+    <script src="/assets/scripts/jquery-1.11.3.min.js"></script>
   </head>
   <body>
+    {% include header.html %}
 
-      {{ content }}
+    <section class="main-content">
       
+        {{ content }}
+      
+    </section>
+
+    {% include footer.html %}
 
     <script src="assets/scripts/scale.fix.js"></script>
     

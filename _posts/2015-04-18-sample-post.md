@@ -1,4 +1,6 @@
 ---
+layout: main
+title: Sample Post
 ---
 
 This is my first Jekyll post, and will work as a sample for future posts.
