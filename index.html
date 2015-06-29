@@ -3,19 +3,20 @@ layout: main
 title: Welcome
 ---
 
-<h2>Welcome!</h2>
-<aside>I am a software developer, guitarist, banjo player, and recording engineer</aside>
-
 <article>
+	<h2>Welcome!</h2>
+	<aside>I am a software developer, guitarist, banjo player, and recording engineer</aside>
 
-  <p>This site was setup April 15, 2015, and is currently under construction</p>
+	<p>This site was setup April 15, 2015, and is currently under construction</p>
 
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+	<section>
+		<ul>
+		{% for post in site.posts %}
+		  <li>
+		    <a href="{{ post.url }}">{{ post.title }}</a>
+		    {{ post.excerpt }}
+		  </li>
+		{% endfor %}
+		</ul>
+	</section>
 </article>
