@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Martinbour.com - {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="/assets/css/styles-mobile.css">
+    <link rel="stylesheet" href="/assets/css/styles-desktop.css" media="(min-width:50em)">
+    
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    IE 9 stylesheets here
+    <![endif]-->
+
+    <script src="/assets/scripts/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    {% include header.html %}
+
+    <section class="main-content">
+      
+        {{ content }}
+      
+    </section>
+
+    {% include footer.html %}
+
+    <script src="assets/scripts/scale.fix.js"></script>
+    
+  </body>
+</html>

@@ -1,13 +1,15 @@
 ---
+layout: main
+title: Sample Post
 ---
 
 This is my first Jekyll post, and will work as a sample for future posts.
 
 {{excerpt_separator}}
 
-This post is written in Markdown.
+## This post is written in Markdown. (H2)
 
-### Site Variables
+### Site Variables (H3)
 site.time: {{ site.time }}  
 site.pages: (not used here)  
 site.posts: (not used here)  

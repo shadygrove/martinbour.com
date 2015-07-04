@@ -6,10 +6,15 @@ or
 http://shadygrove.github.io/martinbour.com/
 
 ### Info
+[Markdown](http://en.wikipedia.org/wiki/Markdown)  
 [GitHub Pages](https://pages.github.com/)  
-[Jekyll](http://www.jekyllrb.com)  
+[GitHub Pages Dependencies](https://pages.github.com/versions/)  
+[Jekyll](http://www.jekyllrb.com) - [Jekyll Variables](http://jekyllrb.com/docs/variables/)  
 [Bourbon](http://bourbon.io/) - CSS Mixins for [SASS](http://sass-lang.com/)  
 [NEAT](http://neat.bourbon.io/) - grid framework for Bourbon  
+[Bitters](https://github.com/thoughtbot/bitters) - html tag styling
+[Pygments](http://pygments.org/) - syntax highlighting
+
 
 ## About This Project
 

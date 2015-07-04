@@ -1,47 +1,31 @@
 ---
+layout: main
+title: Welcome
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="google-site-verification" content="UMn7_TNLPHfqIIxI6uDs7n28Z2yHEem-WLRQL7Y-DOQ" />
-    <title>Martinbour.com by shadygrove</title>
 
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      
-      {% include header.html %}
+<article>
+	<aside><p>This is the home page for Martin Bour, a software developer, music lover, and soon-to-be father currently residing near Pittsburgh, PA.</p>
+	</aside>
 
-      <section>
-        <h3>Welcome to Martin's Site</h3>
-        <aside>I am a software developer, guitarist, banjo player, and recording engineer</aside>
+    <h3>Developer</h3>
+    <p>Currently I am a user interface developer at Philips Healthcare where I am working on new application development using client-side frameworks such as Angular JS and Bootstrap.</p>
+    <p>My previous work experience has ranged from building MVC web applications to designing integration solutions using web services.</p>
 
-        <article>
-          <p>This site was setup April 15, 2015, and is currently under construction</p>
+	<p>This site is being built for free using GitHub Pages, Jekll, Sass, Bourbon, Neat, Bitters, and Refills.  It's progressing slowly, but as time permits I will continue to enhance the site.</p>
 
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                {{ post.excerpt }}
-              </li>
-            {% endfor %}
-          </ul>
-        </article>
-      </section>
-      
-      {% include footer.html %}
+    <h3>Musician</h3>
+    <p>I have a batchelor's degree in Music Production and Technology from Middle Tennessee State University.  While I don't currently do this for a living I still love music and the creative process of producing musical recordings.  I have a Pro Tools workstation, with some basic plugins.  I prefer natural instrumentation and minimal manipulation of audio signal.</p>
 
-    </div>
-    <script src="assets/scripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+    <p>I also play acoustic guitar and, recently, the banjo.</p>
+
+	<section>
+		<ul>
+		{% for post in site.posts %}
+		  <li>
+		    <a href="{{ post.url }}">{{ post.title }}</a>
+		    {{ post.excerpt }}
+		  </li>
+		{% endfor %}
+		</ul>
+	</section>
+</article>
