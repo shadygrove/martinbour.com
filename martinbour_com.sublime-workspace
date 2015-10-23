@@ -8,50 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/styles.scss",
-			"settings":
-			{
-				"buffer_size": 215,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1346,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/_main.scss",
-			"settings":
-			{
-				"buffer_size": 1163,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_sass/_layout.scss",
-			"settings":
-			{
-				"buffer_size": 243,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/footer.html",
-			"settings":
-			{
-				"buffer_size": 268,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 3802,
+				"buffer_size": 1407,
 				"line_ending": "Unix"
 			}
 		}
@@ -64,10 +24,10 @@
 		[
 			[
 				"",
-				"Preferences: Browse Packages"
+				"Package Control: Install Package"
 			]
 		],
-		"width": 392.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -84,30 +44,87 @@
 	},
 	"file_history":
 	[
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_main.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_layout.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_media.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/Gemfile",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/README.md",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/pygment_trac.css",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/styles.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/assets/css/styles.css",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_config.yml",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/.gitignore",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_reset.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/assets/css/styles.scss",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_posts/2015-04-18-sample-post.md",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_variables.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/local/_layout.scss",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/index.html",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/robots.txt",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/base/_variables.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_includes/header.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_posts/2015-04-18-sample-post.md",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_includes/footer.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_layouts/main.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/example/_neat-example-desktop.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/local/_layout-desktop.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/styles-desktop.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/styles-mobile.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_layout.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/layout-neat.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css-examples/desktop-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css-examples/mobile-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/components/_button-group.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/components/_footer.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/examples/refills.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/components/_navigation.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/scripts/components/navigation.js",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/components/_flashes.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/components/_tables.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_layouts/example.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/scripts/components/accordion-tabs.js",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/components/_accordion-tabs.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/neat/grid/_row.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/neat/grid/_display-context.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/example/_neat-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/neat/grid/_to-deprecate.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/examples/index.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/Gemfile",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/neat/settings/_disable-warnings.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/bourbon/_bourbon-deprecated-upcoming.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/Gemfile.lock",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/robots.txt",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/example/_variables.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/example/_bitters-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css-examples/_bitters-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/info/index.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/info/bitters.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/bitters-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/mobile-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/info/bitters2.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/desktop-example.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/info/grids.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/example/_reset.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/local/_normalize.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/index/_normalize.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/index/_reset.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_layouts/example-bitters.html",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_reset.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/base/_base.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/example/_reset-bitters.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/base/_typography.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/index/_grid-settings.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/bourbon/_bourbon.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/martinbour_com.sublime-project",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/styles.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/desktop.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/mobile.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_reset_neat.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_typography.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/desktop.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/mobile.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/README.md",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/base/_grid-settings.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_config.yml",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_main.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_sass/_media.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/assets/css/pygment_trac.css",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/assets/css/styles.css",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/.gitignore",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_site/assets/css/styles.scss",
+		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/robots.txt",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_layouts/footer.html",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/_layouts/header.html",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/untitled",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/martinbour_com.sublime-project",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/CNAME",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/index_backup.html",
 		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/readme.md",
-		"/Users/bourmac/Documents/Development/GitHub/martinbour.com/Gemfile.lock",
 		"/Users/bourmac/Documents/Development/Xamarin/AspNetMvc3/AspNetMvc3/Web.config",
 		"/Volumes/Git 2.2.1 Mavericks Intel Universal/uninstall.sh",
 		"/Users/bourmac/.gitconfig",
@@ -148,9 +165,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -158,6 +176,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
+			"align",
+			"reset-display",
+			"omega",
+			"row",
+			"row(",
+			"$display",
+			"textblue",
+			"body-line",
+			"typography",
+			"height",
+			"golden",
+			"goldern",
+			"source",
+			"left",
+			"base-line",
+			"body",
+			"line-height",
+			"body",
+			"body-line",
 			"h1 {",
 			"todo",
 			"mvc"
@@ -168,6 +206,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"body-line"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -178,169 +217,31 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/styles.scss",
-					"settings":
-					{
-						"buffer_size": 215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1346,
+						"buffer_size": 1407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								682,
-								682
+								1216,
+								1216
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 265.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_sass/_main.scss",
-					"settings":
-					{
-						"buffer_size": 1163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								392,
-								392
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_sass/_layout.scss",
-					"settings":
-					{
-						"buffer_size": 243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_includes/footer.html",
-					"settings":
-					{
-						"buffer_size": 268,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 3802,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2857,
-								2857
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1086.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -381,7 +282,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -404,6 +305,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true
 }
