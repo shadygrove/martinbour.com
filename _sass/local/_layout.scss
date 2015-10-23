@@ -1,6 +1,7 @@
 body {
   color: $textblue;
   line-height: $base-line-height;
+  background-color: #dkerblue;
 }
 
 
@@ -13,7 +14,7 @@ pre {
 }
 
 header {
-  background-color: $dkerblue;
+  background-color: $dark-gray;
   @include clearfix();
   text-align: left;
 
