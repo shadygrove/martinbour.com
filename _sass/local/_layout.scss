@@ -1,7 +1,7 @@
 body {
   color: $textblue;
   line-height: $base-line-height;
-  background-color: #dkerblue;
+  background-color: $dark-gray;
 }
 
 
@@ -14,9 +14,10 @@ pre {
 }
 
 header {
-  background-color: $dark-gray;
-  @include clearfix();
-  text-align: left;
+  @include clearfix;
+  background-color: #fff;
+  background-image: url('/assets/images/site-header.jpg');
+  height: 172px;
 
   .wrapper {
     @include outer-container;
@@ -41,23 +42,32 @@ header {
 }
 
 section { 
-  @include outer-container;
+  @include clearfix;
   padding: 0.5em 1em;
   text-align: left;
-  margin-bottom: 3em;
 
   &.main-content {
-    
+    @include outer-container;
+    @include span-columns(12);
+    background-color: white;
+    min-height: 20em;
+
     div {
-      @include span-columns(12);
-      height: 100%;
+      
+      //height: 100%;
     }
   }
 }
 
+article {
+  
+}
+
 footer {
   @include outer-container;
-  padding: 0.5em 1em;
+  background-image: url('/assets/images/site-footer.jpg');
+  height: 440px;
+  //padding: 0.5em 1em;
   display: block;
   clear: both;
 
