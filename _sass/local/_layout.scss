@@ -67,9 +67,15 @@ footer {
   @include outer-container;
   background-image: url('/assets/images/site-footer.jpg');
   height: 440px;
-  //padding: 0.5em 1em;
+  padding: 0.5em 0em;
   display: block;
   clear: both;
-
-  p { font-size: .8em; }
+  
+  .footer-content {
+    @include position(relative, 380px 0 0 0);
+    background-color: $light-gray;
+    
+    p { font-size: .8em;  text-align: center; }
+  }
+  
 }
