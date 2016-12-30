@@ -14,11 +14,6 @@ pre {
 }
 
 header {
-  @include clearfix;
-  background-color: #fff;
-  background-image: url('/assets/images/site-header.jpg');
-  height: 172px;
-
   .wrapper {
     @include outer-container;
     padding: 0.5em 1em;
@@ -65,7 +60,6 @@ article {
 
 footer {
   @include outer-container;
-  background-image: url('/assets/images/site-footer.jpg');
   height: 440px;
   padding: 0.5em 0em;
   display: block;

@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1407,
+				"buffer_size": 214,
 				"line_ending": "Unix"
 			}
 		}
@@ -165,7 +165,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -224,15 +224,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1407,
+						"buffer_size": 214,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1216,
-								1216
+								0,
+								0
 							]
 						],
 						"settings":
