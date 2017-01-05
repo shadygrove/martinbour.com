@@ -7,7 +7,7 @@
 		var igConfig = {
 			token: '199450205.2b60c7a.6b0b48cc37214274b29cf851cfdb3308',
 			userid: 'self',
-			count: 10
+			count: 6
 		};
 
 	    $.ajax({
