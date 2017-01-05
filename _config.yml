@@ -3,8 +3,16 @@
 source: .
 destination: _site
 url: http://martinbour.com
+baseurl: "" # config.yml default variable. does not include hostname
+basepath: "/"
+
+instafeedpath: /bower_components/instafeed.js/instafeed.js
+scripts_local: /assets/scripts/local
+scripts: /assets/scripts
+
 sass:
   sass_dir: _sass
+
 defaults:
   -
     scope:

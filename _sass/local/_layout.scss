@@ -11,6 +11,15 @@ pre {
 
 .wrapper {
   @include outer-container;
+  @include clearfix;
+}
+
+h1 {
+  font-size: $base-font-size * 1.5;
+}
+
+h2 {
+
 }
 
 header {
@@ -43,14 +52,8 @@ section {
 
   &.main-content {
     @include outer-container;
-    @include span-columns(12);
     background-color: white;
     min-height: 20em;
-
-    div {
-      
-      //height: 100%;
-    }
   }
 }
 
@@ -60,16 +63,34 @@ article {
 
 footer {
   @include outer-container;
-  height: 440px;
-  padding: 0.5em 0em;
-  display: block;
-  clear: both;
-  
-  .footer-content {
-    @include position(relative, 380px 0 0 0);
-    background-color: $light-gray;
-    
+  padding: 0.5em 1em;
+  background-color: $light-gray;
+
+  .footer-content {    
     p { font-size: .8em;  text-align: center; }
   }
   
+}
+
+
+#instagram {
+  @include clearfix;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#instagram li {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+#instagram li:last-child {
+  margin-right: 0;
+}
+
+#instagram li img {
+  max-width: 100%;
+  max-height: 100%;
 }
