@@ -1,9 +1,13 @@
----
----
+
+/*
+ * styles-desktop starts here
+ */
+
+// Import Bourbon and Neat so we can use the mixins
 @import "bourbon/bourbon";
-@import "base/base";
 @import "neat/neat";
-@import "example/neat-example-desktop";
+
+@import "layout-desktop";
 
 @import "components/accordion-tabs";
 @import "components/navigation";

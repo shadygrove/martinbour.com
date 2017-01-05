@@ -5,14 +5,4 @@
  * styles-desktop starts here
  */
 
-// Import Bourbon and Neat so we can use the mixins
-@import "bourbon/bourbon";
-@import "neat/neat";
-
-@import "local/layout-desktop";
-
-@import "components/accordion-tabs";
-@import "components/navigation";
-@import "components/flashes";
-@import "components/button-group";
-@import "components/footer";
+@import "local/local-desktop";
