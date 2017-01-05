@@ -80,10 +80,9 @@ footer {
 }
 
 #instagram li {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
+  @include span(2);
+  width: 120px;
+  height: 120px;
 }
 
 #instagram li:last-child {
