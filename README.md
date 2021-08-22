@@ -56,8 +56,9 @@ Add “gem 'github-pages” to the GemFile
 Run “bundle install”:  
 I received an error here and had some problems that really held me up.  I was using Ruby 1.9.3 and installed 2.2.2 using RVM (version mgr).  This still did not work.  In the end, I had to install xcode developer tools…  
 **xcode-select --install** which will create install dialog for XCode
+
 #### To run site locally with Jekyll  
-~“bundle exec jekyll serve”~
+`bundle exec jekyll serve`
 
 ## Design and Layout (CSS)
 Jekyll uses makes use of SASS, so I decided to use (Bourbon)[http://bourbon.io/] for some high-level CSS features, and (NEAT)[http://neat.bourbon.io/] for a grid framework.
@@ -82,7 +83,8 @@ cd to the _sass directory, and `neat install`
 Import neat in the master .scss file at "assets/css/styles.scss"  
 `@import "neat/neat"`
 
-**Note: make sure you can still compile the project: ~jekyll build~ from the root directory**
+**Note: make sure you can still compile the project:**  
+'jekyll build` from the root directory
 
 ## Domain Name Setup
 The most helpful page on setting this up was…
