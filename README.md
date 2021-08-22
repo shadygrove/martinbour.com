@@ -84,7 +84,7 @@ Import neat in the master .scss file at "assets/css/styles.scss"
 `@import "neat/neat"`
 
 **Note: make sure you can still compile the project:**  
-'jekyll build` from the root directory
+`jekyll build` from the root directory
 
 ## Domain Name Setup
 The most helpful page on setting this up was…
