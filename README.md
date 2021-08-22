@@ -49,13 +49,14 @@ Every GitHub page is run through Jekyll, so “Simply start committing Jekyll fo
 Basics:  
 Install Ruby: I used RVM (Ruby Version Manager)  
 Install Bundler for Ruby “gem install bundler”  
+
 #### Add Jekyll to project  
 Create gem file “bundler init”  
 Add “gem 'github-pages” to the GemFile  
 Run “bundle install”:  
 I received an error here and had some problems that really held me up.  I was using Ruby 1.9.3 and installed 2.2.2 using RVM (version mgr).  This still did not work.  In the end, I had to install xcode developer tools…  
 **xcode-select --install** which will create install dialog for XCode
-**To run site locally with Jekyll**  
+#### To run site locally with Jekyll  
 ~“bundle exec jekyll serve”~
 
 ## Design and Layout (CSS)
