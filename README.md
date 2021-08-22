@@ -64,8 +64,8 @@ Jekyll uses makes use of SASS, so I decided to use (Bourbon)[http://bourbon.io/]
 
 ### How to Setup Bourbon
 I have already generated Bourbon .scss in the "_sass" directory.  These are the steps I took to do that...  
-Add ~gem 'bourbon'~ to the Gemfile  
-Run ~bundle install~ - this will install the gem in your Ruby install  
+Add `gem 'bourbon` to the Gemfile  
+Run `bundle install` - this will install the gem in your Ruby install  
 cd to the _sass directory, and  
 bourbon install - this will create a bourbon directory with all the necessary .scss files  
 Add import to "assets/css/styles.scss": @import 'bourbon/bourbon'  
@@ -75,12 +75,12 @@ sass:
    sass_dir: _sass
 
 ### How to Setup Neat
-Add ~gem 'neat'~ to the Gemfile  
-Run ~bundle install~  
+Add `gem 'neat'` to the Gemfile  
+Run `bundle install`  
 Now we need to create the directory in _sass similar to how we did Bourbon...  
-cd to the _sass directory, and ~neat install~  
+cd to the _sass directory, and `neat install`  
 Import neat in the master .scss file at "assets/css/styles.scss"  
-@import "neat/neat"
+`@import "neat/neat"`
 
 **Note: make sure you can still compile the project: ~jekyll build~ from the root directory**
 
