@@ -100,7 +100,7 @@ GEM
       bourbon (>= 4.0)
       sass (>= 3.3)
     net-dns (0.8.0)
-    nokogiri (1.12.3)
+    nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     parslet (1.5.0)
